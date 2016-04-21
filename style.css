@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html{
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #3b3b3b;
+}
+
+input#givenWord{
+  color: #fff;
+  text-align: center;
+  font-size: 4em;
+  width: auto;
+  min-width: 300;
+  background: transparent;
+  border: 5px solid #eee;
+}
+
+.onTopOfEachOther {
+    position: relative;
+}
+.onTopOfEachOther span {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+a{
+  color:#fff;
+}
+
+.heart {
+  fill: red;
+	width: 30px;
+}
+
+#box{
+  position:absolute;
+  width:100%;
+  text-align: center;
+}
+
+footer{
+  top:95%;
+  height: 5%;
+  width:100%;
+  text-align: center;
+  position: fixed;
+  font-size: 1em;
+}
