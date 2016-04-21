@@ -5,7 +5,7 @@ $(document).keypress(function(e) {
       word = word.toLowerCase()
       console.log(word)
       var ans = new Array;
-      $.get('/preceed_with_an.txt', function(data){
+      $.get('preceed_with_an.txt', function(data){
         var ans = data.split('\n');
         var answer = $("#answer");
         for (var i = 0; i < ans.length; i++){
