@@ -11,7 +11,6 @@ $(document).keypress(function(e) {
         for (var i = 0; i < ans.length; i++){
           if (ans[i] === word){
             $(answer).text("An");
-            console.log("An")
             break;
           }else{
             $(answer).text("A");
