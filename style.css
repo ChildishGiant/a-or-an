@@ -22,19 +22,6 @@ input#givenWord{
   outline: none;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #fff;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: #fff;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #fff;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: #fff;
-}
-
 a{
   color:#fff;
 }
