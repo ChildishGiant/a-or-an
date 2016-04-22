@@ -16,7 +16,7 @@ input#givenWord{
   margin-left: 20;
   margin-right: 20;
   max-width: 60%;
-  padding: 5;
+  padding: 0;
   display: inline-block;
   font-size: inherit;
   outline: none;
