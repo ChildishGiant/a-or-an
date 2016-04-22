@@ -74,3 +74,37 @@ footer{
   position: fixed;
   font-size: 1em;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h1{
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 10em;
+    }
+
+    footer{
+      top:90%;
+      height: 10%;
+      width:100%;
+      text-align: center;
+      position: fixed;
+      font-size: 1em;
+    }
+
+    input#givenWord{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      text-align: center;
+      font-size: 10em;
+      width: 95%;
+      min-width: 300;
+      background: transparent;
+      border: 5px solid #eee;
+    }
+}
