@@ -91,7 +91,12 @@ footer{
       width:100%;
       text-align: center;
       position: fixed;
-      font-size: 2em;
+      font-size: 4em;
+    }
+
+    .heart {
+      fill: red;
+    	width: 60px;
     }
 
     input#givenWord{
