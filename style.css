@@ -79,19 +79,19 @@ footer{
     /* For mobile phones: */
     h1{
       position: absolute;
-      top: 10%;
+      top: 0%;
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 8em;
     }
 
     footer{
-      top:90%;
+      top:80%;
       height: 10%;
       width:100%;
       text-align: center;
       position: fixed;
-      font-size: 4em;
+      font-size: 2em;
     }
 
     .heart {
@@ -102,7 +102,7 @@ footer{
     input#givenWord{
       position: absolute;
       top: 60%;
-      left: 50%;
+      left: 40%;
       transform: translate(-50%, -50%);
       color: #fff;
       text-align: center;
