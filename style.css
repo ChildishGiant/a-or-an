@@ -82,7 +82,7 @@ footer{
       top: 10%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 10em;
+      font-size: 8em;
     }
 
     footer{
@@ -101,7 +101,7 @@ footer{
       transform: translate(-50%, -50%);
       color: #fff;
       text-align: center;
-      font-size: 10em;
+      font-size: 8em;
       width: 95%;
       min-width: 300;
       background: transparent;
