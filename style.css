@@ -58,9 +58,12 @@ body{
   /* For mobile phones: */
   #box{
     top:10%;
-    font-size: 5em;
+    font-size: 3em;
   }
 
+  input#givenWord{
+    max-width: 90%
+  }
   footer{
     top:80%;
     height: 20%;
