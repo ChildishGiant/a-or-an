@@ -25,3 +25,29 @@ $(document).keypress(function(e) {
       });
     }
 });
+
+function resizeInput() {
+
+    //Firstly take the content or placeholder if content is missing.
+    var content =
+        $(this).val().length > 0 ? $(this).val() : $(this).prop("placeholder");
+
+    //Create testing element with same content as input.
+    var widthTester = $("<span>"+content+"</span>").hide();
+
+    //Place testing element into DOM after input (so it inherits same formatting as input does).
+    widthTester.insertAfter($(this));
+
+    //Set inputs width; you may want to use outerWidth() or innerWidth()
+    //depending whether you want to count padding and border or not.
+    $(this).css("width",widthTester.width()+"px");
+
+    //Remove the element from the DOM
+    widthTester.remove();
+ }
+
+$('input[type="text"]')
+    // event handler
+    .keyup(resizeInput)
+    // resize on page load
+    .each(resizeInput);
