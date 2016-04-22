@@ -13,13 +13,16 @@ input#givenWord{
   text-align: center;
   background: transparent;
   border-style: none;
+  border-bottom: 5px solid #fff;
   margin-left: 20;
   margin-right: 20;
+  min-width: 20px;
   max-width: 60%;
   padding: 0;
   display: inline-block;
   font-size: inherit;
   outline: none;
+
 }
 
 a{
@@ -62,7 +65,7 @@ body{
   }
 
   input#givenWord{
-    max-width: 90%
+    max-width: 95%
   }
   footer{
     top:80%;
