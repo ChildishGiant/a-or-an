@@ -11928,6 +11928,8 @@ intentions
 intently
 intents
 inter
+interabang
+interabangs
 interacciones
 interact
 interacted
