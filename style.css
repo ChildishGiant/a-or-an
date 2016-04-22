@@ -8,7 +8,7 @@ html{
 
 input#givenWord{
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -60,7 +60,7 @@ a{
 
 h1{
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 10em;
@@ -91,7 +91,7 @@ footer{
       width:100%;
       text-align: center;
       position: fixed;
-      font-size: 1em;
+      font-size: 2em;
     }
 
     input#givenWord{
