@@ -15,7 +15,7 @@ $(document).keypress(function(e) {
         var ans = data.split('\n');
         var answer = $("#answer");
         for (var i = 0; i < ans.length; i++){
-          if (ans[i] === word and word != ""){
+          if (ans[i] === word && word != ""){
             $(answer).text("An");
             break;
           }else{
