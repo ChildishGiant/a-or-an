@@ -16,14 +16,10 @@ $(document).keypress(function(e) {
         var answer = $("#answer");
         for (var i = 0; i < ans.length; i++){
           if (ans[i] === word){
-            $(answer).animate({alpha:"0";,500});
             $(answer).text("An");
-            $(answer).animate({alpha:"1";,500});
             break;
           }else{
-            $(answer).animate({alpha:"0";,500});
             $(answer).text("A");
-            $(answer).animate({alpha:"1";,500});
           }
         }
       });
