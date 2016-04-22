@@ -56,9 +56,11 @@ body{
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  #givenWord{
+  #box{
+    top:10%;
     font-size: 5em;
   }
+
   footer{
     top:80%;
     height: 20%;
