@@ -51,3 +51,15 @@ $('input[type="text"]')
     .keyup(resizeInput)
     // resize on page load
     .each(resizeInput);
+
+$('#givenWord').focus(function() {
+    setTimeout((function(el) {
+        var strLength = el.value.length;
+        return function() {
+            if(el.setSelectionRange !== undefined) {
+                el.setSelectionRange(strLength, strLength);
+            } else {
+                $(el).val(el.value);
+            }
+    }}(this)), 0);
+});
