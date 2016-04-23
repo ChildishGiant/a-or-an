@@ -21,6 +21,31 @@ $(document).keypress(function(e) {
     }
 });
 
+var options = {
+    callback: function (value) {
+      word = $('#givenWord').val();
+      word = word.toLowerCase();
+      word = $.trim(word);
+      word = word.split(" ")[0];
+      if (counter == 0){
+        counter++
+        $.get('preceed_with_an.txt', function(data){
+          ans = data.split('\n')
+          console.log("loaded")
+          processResults();
+        });
+      }else{
+        processResults();
+      }
+     },
+    wait: 750,
+    highlight: true,
+    allowSubmit: false,
+    captureLength: 2
+}
+
+$("#givenWord").typeWatch( options );
+
 function resizeInput() {
     var content =
         $(this).val().length > 0 ? $(this).val() : $(this).prop("placeholder");
