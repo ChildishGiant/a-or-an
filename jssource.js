@@ -27,6 +27,7 @@ var options = {
       word = word.toLowerCase();
       word = $.trim(word);
       word = word.split(" ")[0];
+      word = word.split("-")[0];
       if (counter == 0){
         counter++
         $.get('preceed_with_an.txt', function(data){
