@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 html{
+  text-rendering: optimizeLegibility;
   color:#fff;
   font-family: 'Open Sans', sans-serif;
   background-color: #3b3b3b;
