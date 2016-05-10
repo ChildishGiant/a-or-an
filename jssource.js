@@ -41,7 +41,7 @@ var options = {
      },
     wait: 750,
     highlight: true,
-    allowSubmit: false,
+    allowSubmit: true,
     captureLength: 2
 }
 
