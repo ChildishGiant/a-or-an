@@ -38,7 +38,7 @@ var options = {
       }else{
         processResults();
       }
-     },
+    },
     wait: 750,
     highlight: true,
     allowSubmit: true,
