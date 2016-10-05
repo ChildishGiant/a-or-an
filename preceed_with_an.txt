@@ -701,6 +701,8 @@ acronym
 acronyms
 acropolis
 across
+acrostic
+acrostics
 acrylic
 acrylics
 act
