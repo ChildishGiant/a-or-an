@@ -3537,6 +3537,9 @@ angling
 anglo
 anglo-catholicism
 anglophile
+anglophiles
+anglophone
+anglophones
 anglos
 angola
 angolan
@@ -13522,6 +13525,8 @@ ohs
 oi
 oie
 oien
+oik
+oiks
 oil
 oiled
 oiler
